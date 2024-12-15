@@ -1,0 +1,77 @@
+.home {
+    margin-top: 5rem;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.welcome {
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.me {
+    font-size: 38px;
+    margin-bottom: 40px;
+}
+
+span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.heading .btns {
+    margin-top: 25px;
+    display: flex;
+    /* width: 25%; */
+    justify-content: center;
+    margin: auto;
+}
+
+.btn {
+    padding: 15px 30px;
+    border-radius: 28px;
+    margin-right: 20px;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.home-vid {
+    height: 450px;
+    width: 445px;
+    margin: auto;
+    margin-top: 30px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.home-vid video {
+    display: block;
+    height: 100%;
+    width: 100%;
+    /* margin-right: -3px; */
+    border: white;
+    object-fit: cover;
+    /* clip-path: fill-box; */
+}
+
+/* #video{ */
+    /* width:80%; right: 0; top: 0; */
+    /* display:none; */
+    /* border:solid 0px black; */
+/* } */
+
+/* video:focus { outline:none; } */
