@@ -2,7 +2,7 @@ import '../css/Home.css'
 
 function Home() {
     return (
-        <header className='home'>
+        <header className='home' id="home">
             <div className="heading">
                 <h1 className='welcome'>Welcome to my Portfolio!</h1>
                 <h1 className='me'>I'm Nammi Kusuma, <span>a full stack developer</span>.</h1>

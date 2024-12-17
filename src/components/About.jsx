@@ -13,11 +13,13 @@ function About() {
                     <div className="cont">
                     <h3>Full Stack Developer</h3>
                     <p>I am a dedicated Full Stack Developer passionate about building user-friendly applications, solving complex problems, and delivering impactful digital experiences through collaboration and innovation.</p>
+                    <p className='sub'><i>Check out my <a href="#projects"><span>projects!</span></a></i></p>
                     </div>
 
                     <div className="cont">
                     <h3>Competitive Programmer</h3>
                     <p>I am a passionate Competitive Programmer who loves solving challenging algorithmic problems and optimizing solutions. Constantly striving for growth, I enjoy learning and contributing to the problem-solving community.</p>
+                    <p className='sub'><i>Check out my <a href=""><span>profiles!</span></a></i></p>
                     </div>
                 </div>
 

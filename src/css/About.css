@@ -36,6 +36,10 @@
     margin-bottom: 23px;
 }
 
+.sub {
+    font-weight: 500;
+} 
+
 .about-vid {
     height: 400px;
     width: 400px;
@@ -64,5 +68,16 @@
 
     .about-vid {
         margin: auto;
+    }
+}
+
+@media (max-width: 475px) {
+    .about-vid {
+        width: 350px;
+        height: 350px;
+    }
+
+    .about-content {
+        padding: 40px;
     }
 }
