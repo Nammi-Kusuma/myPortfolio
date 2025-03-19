@@ -1,0 +1,24 @@
+.projects-text {
+    text-align: center;
+}
+
+.h1 {
+    font-size: 40px;
+}
+
+.st {
+    margin-bottom: 20px;
+}
+
+.projects {
+    padding: 50px 0px;
+    background-color: #f9f9f9;
+}
+
+.card-container {
+    padding: 20px 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}

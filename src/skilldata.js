@@ -1,4 +1,4 @@
-const skillData = [
+export const skillData = [
     {
         key: 1,
         title: "html",
@@ -97,4 +97,107 @@ const skillData = [
     },
 ];
 
-export default skillData
+export const frontend = [
+    {
+        key: 1,
+        title: "html",
+        name: "HTML",
+        img: "/src/assets/html.png",
+    },
+    {
+        key: 2,
+        title: "css",
+        name: "CSS",
+        img: "/src/assets/css.png",
+    },
+    {
+        key: 3,
+        title: "js",
+        name: "Javascript",
+        img: "/src/assets/javascript.png",
+    },
+    {
+        key: 4,
+        title: "react",
+        name: "React",
+        img: "/src/assets/react.png",
+    },
+    {
+        key: 5,
+        title: "tailwind",
+        name: "Tailwind CSS",
+        img: "/src/assets/tailwind.svg",
+    },
+    {
+        key: 6,
+        title: "redux",
+        name: "Redux",
+        img: "/src/assets/redux.png",
+    },
+];
+
+export const backend = [
+    {
+        key: 7,
+        title: "mongodb",
+        name: "MongoDB",
+        img: "/src/assets/mongodb.png",
+    },
+    {
+        key: 8,
+        title: "node",
+        name: "Node JS",
+        img: "/src/assets/node.png",
+    },
+    {
+        key: 9,
+        title: "mysql",
+        name: "MySQL",
+        img: "/src/assets/mysql.png",
+    },
+    {
+        key: 10,
+        title: "django",
+        name: "Django",
+        img: "/src/assets/django.png",
+    },
+];
+
+export const others = [
+    {
+        key: 11,
+        title: "git",
+        name: "Git",
+        img: "/src/assets/git.svg",
+    },
+    {
+        key: 12,
+        title: "github",
+        name: "Github",
+        img: "/src/assets/github.svg",
+    },
+    {
+        key: 13,
+        title: "c",
+        name: "C language",
+        img: "/src/assets/c.png",
+    },
+    {
+        key: 14,
+        title: "cpp",
+        name: "C++",
+        img: "/src/assets/cpp.png",
+    },
+    {
+        key: 15,
+        title: "Java",
+        name: "Java",
+        img: "/src/assets/java.png",
+    },
+    {
+        key: 16,
+        title: "python",
+        name: "Python",
+        img: "/src/assets/python.png",
+    },
+]

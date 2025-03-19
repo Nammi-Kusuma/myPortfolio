@@ -7,6 +7,7 @@
     height: auto;
     background-color: lightgrey;
     padding: 20px;
+    padding-bottom: 0;
 }
 
 .f-content {
@@ -23,4 +24,9 @@
 .icon {
     font-size: 28px;
     margin-right: 28px;
+    cursor: pointer;
+}
+
+.f-content p {
+    margin-top: 25px;
 }

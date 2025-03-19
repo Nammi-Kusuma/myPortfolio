@@ -1,0 +1,57 @@
+/* Overall container */
+.skill-showcase {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    background-color: #f9f9f9;
+    overflow: hidden;
+  }
+  
+  /* Centered main content */
+  .main-content {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Image of the person */
+  .person-image {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+  }
+  
+  /* Skill logo positioning */
+  .skill-logo {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .skill-logo img {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+  }
+  
+  .skill-logo:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+    z-index: 15;
+  }
+  
